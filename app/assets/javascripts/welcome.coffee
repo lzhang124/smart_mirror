@@ -1,11 +1,12 @@
 $(document).ready ->
+  current_day = moment().day()
   setInterval ->
     now = moment()
     time = now.format('h:mm')
     $("#clock").text(time)
-    console.log(time)
 
-    if now.hour() == 0
+    if now.day() != current_day
+      current_day = now.day()
       console.log("updating date")
       day = now.format('dddd')
       date = now.format('MMMM D')
