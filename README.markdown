@@ -1,3 +1,3 @@
 #Smart Mirror
 
-Webpage for smart mirror functionalities.
+Rails app for smart mirror functionalities.
