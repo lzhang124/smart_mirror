@@ -7,8 +7,8 @@ html, body {
 body {
     background-color: black;
     color: white;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
 }
 
 .time {
@@ -16,7 +16,7 @@ body {
     text-align: right;
 
     #clock {
-        font-size: 5em;
+        font-size: 6em;
     }
 
     #day, #date {
