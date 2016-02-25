@@ -1,2 +1,5 @@
-<h1><%= Time.now.strftime("%l:%M:%S") %></h1>
-<p>Hello World</p>
+<div class="time">
+    <div id="clock"><%= @time.strftime("%l:%M") %></div>
+    <div id="day"><%= @time.strftime("%A") %></div>
+    <div id="date"><%= @time.strftime("%B %e") %></div>
+</div>
